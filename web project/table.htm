@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Table</title>
+    <link rel="stylesheet" href="design.css">
+    <style>
+        body{
+            background-image: url("photos/iPad\ wallpaper.jfif");
+            background-size: cover;
+            display: flex;
+            align-items: first baseline;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #11100f;
+            border-right: 1px solid #11100f; 
+        }
+
+        th:last-child, td:last-child {
+            border-right: none; 
+        }
+
+        tr:hover {
+            background-color: #c4d7b4;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Publication Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>النداهه</td>
+                <td>د.احمد خالد توفيق</td>
+                <td>1925</td>
+            </tr>
+            <tr>
+                <td>shatter me</td>
+                <td>Harper Lee</td>
+                <td>1960</td>
+            </tr>
+            <tr>
+                <td>crooked kingdom</td>
+                <td>George Orwell</td>
+                <td>1949</td>
+            </tr>
+            <tr>
+                <td>The Catcher in the Rye</td>
+                <td>J.D. Salinger</td>
+                <td>1951</td>
+            </tr>
+            <tr>
+                <td>song bird</td>
+                <td> Suzanne Collins</td>
+                <td>1813</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
